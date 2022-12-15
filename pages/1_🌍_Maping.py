@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import folium
+from streamlit_folium import st_folium
 from streamlit_folium import folium_static
 from folium import plugins
 df = pd.read_excel('data\서울지역-청년친화강소기업명단(통합).xlsx')
