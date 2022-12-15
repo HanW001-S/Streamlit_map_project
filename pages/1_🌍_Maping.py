@@ -90,7 +90,8 @@ def display_map(df, year, fields):
         # <b>: bold text, </b>: bold text X, <br>:other line
         # 마커 및 툴팁 설정: 업종별 색깔 구분 + 체크박스 만들기
 
-    folium_static(m)
+    st_map = st_folium(m, width=700, height=450)
+    return st_map
 
 
         
